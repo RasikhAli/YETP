@@ -1,0 +1,183 @@
+.img
+{
+	border: 2px solid black;
+	margin: 15%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-image: url(Cert.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 695px;
+}
+.InpName input[type=text]
+{
+	margin-top: 19%;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+}
+.InpCourse input[type=text]
+{
+	width: 30%;
+	margin-top: 19%;
+	margin-left: 13%;
+	margin-bottom: 5%;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 18px;
+	font-weight: bold;
+}
+input[type=button]
+{
+	margin-bottom: 2%;
+	width: 70%;
+	font-size: 24px;
+	border: none;
+	background: rgb(48,48,48);
+	background: linear-gradient(75deg, rgba(48,48,48,1) 0%, rgba(108,108,108,1) 50%, rgba(167,167,167,1) 100%); 
+	transition-duration: 1s;
+	border-radius: 8px;
+  	border: 2px solid black;
+	padding: 10px;
+	margin-top: 1%;
+	margin-left: 0%;
+  	color: white;
+  	cursor: pointer;
+}
+input[type=button]:hover
+{
+	background-color: white; 
+	color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.9);
+	background: none;
+	/*background: linear-gradient(75deg, rgba(48,48,48,1) 0%, rgba(108,108,108,1) 50%, rgba(167,167,167,1) 100%); */
+}
+
+@media only screen and (max-width: 1366px)
+{
+	.img
+	{
+		height: 670px;
+	}
+}
+@media only screen and (max-width: 1280px)
+{
+	.img
+	{
+		height: 635px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20%;
+		font-size: 32px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 19.5%;
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 1080px)
+{
+	.img
+	{
+		height: 550px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20%;
+		font-size: 32px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 20%;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 1020px)
+{
+	.img
+	{
+		height: 512px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20%;
+		font-size: 28px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 20%;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 900px)
+{
+	.img
+	{
+		height: 450px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20.5%;
+		font-size: 22px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 19.8%;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.img
+	{
+		height: 400px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20.5%;
+		font-size: 22px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 19%;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 700px)
+{
+	.img
+	{
+		height: 350px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 20.5%;
+		font-size: 18px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 19.5%;
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 650px)
+{
+	.img
+	{
+		height: 300px;
+	}
+	.InpName input[type=text]
+	{
+		margin-top: 19%;
+		font-size: 16px;
+	}
+	.InpCourse input[type=text]
+	{
+		margin-top: 18%;
+		font-size: 8px;
+	}
+}
